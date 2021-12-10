@@ -6,13 +6,16 @@ const inputData = document.querySelector(".text-area");
 const submitBtn = document.querySelector(".submit");
 const container = document.querySelector(".container");
 const deleteBtn = document.querySelectorAll(".dlt");
+const hideNoTasksFound = document.querySelector(".empty");
 let data = localStorage.getItem("data")
   ? JSON.parse([localStorage.getItem("data")])
   : [];
-
 // Function that runs only once to load the data from array at the start if there is something in cookies
 function initialListRender() {
-  data.forEach((item) => renderList(item.task, item.idName));
+  if (data.length > 0) {
+    hideNoTasksFound.classList.add("hide");
+    data.forEach((item) => renderList(item.task, item.idName));
+  }
 }
 initialListRender();
 
