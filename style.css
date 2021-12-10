@@ -1,9 +1,12 @@
 body {
   max-width: 70%;
   margin: auto;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #eeeeee;
 }
 h1 {
   text-align: center;
+  color: #064663;
 }
 .wrapper {
   text-align: center;
@@ -70,4 +73,27 @@ h1 {
 }
 .hide {
   display: none;
+}
+
+@media only screen and (max-width: 720px) {
+  body {
+    width: 95%;
+    margin: auto;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  #add-task-button,
+  .submit {
+    font-family: "Ubuntu", sans-serif;
+    font-size: large;
+    font-weight: bold;
+  }
+  .text-area {
+    padding: 0.7rem 1rem;
+  }
+  .submit {
+    margin-top: 1rem;
+    margin-bottom: 00.7rem;
+  }
 }
