@@ -48,6 +48,9 @@ h1 {
 .empty{
   text-align: center;
 }
+.centered{ 
+  text-align: center;
+}
 .task {
   display: flex;
   justify-content: space-evenly;
