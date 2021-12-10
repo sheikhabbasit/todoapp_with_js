@@ -45,12 +45,7 @@ h1 {
 .submit {
   padding: 0.5rem 1.5rem;
 }
-.empty{
-  text-align: center;
-}
-.centered{ 
-  justify-content: center;
-}
+
 .task {
   display: flex;
   justify-content: space-evenly;
@@ -62,6 +57,9 @@ h1 {
   display: flex;
   justify-content: flex-start;
   padding-left: 0.8rem;
+}
+.empty {
+  justify-content: center;
 }
 .align-buttons {
   width: 50%;
