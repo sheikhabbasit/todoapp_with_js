@@ -49,7 +49,7 @@ h1 {
   text-align: center;
 }
 .centered{ 
-  text-align: center;
+  justify-content: center;
 }
 .task {
   display: flex;
