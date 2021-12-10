@@ -6,7 +6,7 @@ const inputData = document.querySelector(".text-area");
 const submitBtn = document.querySelector(".submit");
 const container = document.querySelector(".container");
 const deleteBtn = document.querySelectorAll(".dlt");
-const hideNoTasksFound = document.querySelector(".empty");
+const hideNoTasksFound = document.querySelector(".empty-element");
 let data = localStorage.getItem("data")
   ? JSON.parse([localStorage.getItem("data")])
   : [];
