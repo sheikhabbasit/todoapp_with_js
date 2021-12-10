@@ -1,0 +1,73 @@
+body {
+  max-width: 70%;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+}
+.wrapper {
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 10px;
+  background-color: #064663;
+  margin-bottom: 1rem;
+}
+.btn {
+  padding: 1rem 2rem;
+  background-color: #ecb365;
+  color: #064663;
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ecb365;
+}
+.btn:hover {
+  background-color: #04293a;
+  color: #ecb365;
+  border: 1px solid white;
+}
+
+.dark-wrapper {
+  padding: 1rem;
+  background-color: #04293a;
+  border-radius: 10px;
+  max-width: 70%;
+  margin: 1rem auto;
+}
+.text-area {
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  margin: 0.5rem 1rem;
+}
+.submit {
+  padding: 0.5rem 1.5rem;
+}
+
+.task {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}
+.task-name {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 0.8rem;
+}
+.align-buttons {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.btn-small {
+  padding: 0.8rem;
+  margin: 0.5rem;
+}
+.material-icons {
+  font-size: 1rem;
+}
+.hide {
+  display: none;
+}
